@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
+import Info from './components/Info';
 
 class App extends Component {
   render() {
-    return <div>Just a div</div>;
+    return (
+      <div className="card">
+        <Info />
+      </div>
+    );
   }
 }
 

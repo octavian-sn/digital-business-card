@@ -3,8 +3,69 @@
 }
 
 body {
+  padding-top: 3vh;
   margin: 0;
   background-color: #282d35;
   font-family: Inter, sans-serif;
   color: white;
+}
+
+.card {
+  margin: auto;
+  width: 317px;
+  height: 780px;
+  border-radius: 10px;
+  background-color: #1a1b21;
+}
+
+/* Info section (avatar, name, buttons) */
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 60%;
+}
+.info--avatar {
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 15px;
+}
+.info--name {
+  font-size: 25px;
+  font-weight: bold;
+}
+.info--title {
+  margin-bottom: 10px;
+  font-size: 12.8px;
+  color: #f3bf99;
+}
+.info--site {
+  font-size: 10.24px;
+  margin-bottom: 20px;
+}
+.info--buttons {
+  display: flex;
+  width: 247px;
+  gap: 20px;
+}
+.info--buttons button {
+  font-size: 14px;
+  width: 115px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.info--buttons button img {
+  height: 16px;
+  width: 16px;
+}
+.info--button-linkedin {
+  color: white;
+  background-color: #5093e2;
 }
