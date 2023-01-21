@@ -3,6 +3,7 @@ import Info from './components/Info';
 import About from './components/About';
 import Interests from './components/Interests';
 import Footer from './components/Footer';
+import Credits from './components/Credits';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <Interests />
         </div>
         <Footer />
+        <Credits />
       </div>
     );
   }

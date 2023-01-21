@@ -8,6 +8,7 @@ body {
   background-color: #282d35;
   font-family: Inter, sans-serif;
   color: white;
+  position: relative;
 }
 
 .card {
@@ -104,4 +105,16 @@ body {
   height: 25px;
   width: 25px;
   cursor: pointer;
+}
+
+/* Credits */
+.credits {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-size: 12px;
+  position: absolute;
+  bottom: -120px;
+  font-family: Arial, Helvetica, sans-serif;
 }
