@@ -8,7 +8,7 @@ export default function Info() {
     <div className="info">
       <img src={avatar} alt="doggo in yellow shirt" className="info--avatar" />
       <div className="info--name">Toby Snoots</div>
-      <div className="info--title">Fullstack Developer</div>
+      <div className="info--title">Fullstack Barker</div>
       <div className="info--site">tobysnoots.website</div>
       <div className="info--buttons">
         <button className="info--button-email">
@@ -17,7 +17,7 @@ export default function Info() {
         </button>
         <button className="info--button-linkedin">
           <img src={linked} alt="linkedIn icon" />
-          LinkedIn
+          SinffedIn
         </button>
       </div>
     </div>
